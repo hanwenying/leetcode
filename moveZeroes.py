@@ -1,7 +1,4 @@
 class Solution(object):
-    def __init__(self, nums):
-        self.nums = nums
-
     def moveZeroes(self, nums):
         """
         :type nums: List[int]
@@ -20,6 +17,6 @@ class Solution(object):
 
 if __name__ == '__main__':
     nums = [0,1,0,3,12]
-    solution = Solution(nums)
+    solution = Solution()
     solution.moveZeroes(nums)
     print nums
